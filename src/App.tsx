@@ -89,6 +89,7 @@ function App() {
           <form onSubmit={handleSubmit}>
             <label htmlFor="studentName">Student Name: </label>
             <input
+              id="studentName"
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
